@@ -64,6 +64,6 @@ class App(tk.Tk):
 
         self.set_message("Mật khẩu nhập lại sai", self.SUCCESS)
 
-if __name__ == "__main__":
-    app = App()
-    app.mainloop()
+
+app = App()
+app.mainloop()
